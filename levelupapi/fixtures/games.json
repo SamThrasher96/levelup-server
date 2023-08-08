@@ -1,0 +1,32 @@
+[
+    {
+        "model": "levelupapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Settlers of Catan",
+            "game_type_id": 1, 
+            "creator_id": 1,
+            "description": "Build the longest road and trade for sheep!"
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 2,
+        "fields": {
+            "title": "Dungeons and Dragons",
+            "game_type_id": 2, 
+            "creator_id": 1,
+            "description": "Be literally whatever you want"
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 3,
+        "fields": {
+            "title": "World of Warcraft",
+            "game_type_id": 3, 
+            "creator_id": 1,
+            "description": "A world of war and crafts"
+        }
+    }
+]
