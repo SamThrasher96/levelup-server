@@ -3,5 +3,5 @@ from .event import Event
 from .gamer import Gamer 
 
 class EventAttendee(models.Model):
-    eventId = models.ForeignKey(Event, on_delete=models.CASCADE)
-    attendeeId = models.ForeignKey(Gamer, on_delete=models.CASCADE)
+    event = models.ForeignKey(Event, on_delete=models.CASCADE)
+    attendee = models.ForeignKey(Gamer, on_delete=models.CASCADE)

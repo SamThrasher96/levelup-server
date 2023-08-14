@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "organizer": 1, 
-            "game": 3,
+            "game": 2,
             "event_date": "2023-08-08"
         }
     }

@@ -4,6 +4,8 @@ from .gamer import Gamer
 
 class Game(models.Model):
     title = models.CharField(max_length=250, default="Default Title")
-    game_type_id = models.ForeignKey(GameType, on_delete=models.CASCADE)
-    creator_id = models.ForeignKey(Gamer, on_delete=models.CASCADE)
+    game_type = models.ForeignKey(GameType, on_delete=models.CASCADE)
+    creator = models.ForeignKey(Gamer, on_delete=models.CASCADE)
     description = models.CharField(max_length=250)
+    players_needed = models.PositiveIntegerField(default=0)
+    skill_level= models.CharField(max_length=250, default="easy")

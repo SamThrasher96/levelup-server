@@ -6,7 +6,9 @@
             "title": "Settlers of Catan",
             "game_type_id": 1, 
             "creator_id": 1,
-            "description": "Build the longest road and trade for sheep!"
+            "description": "Build the longest road and trade for sheep!",
+            "players_needed": 4,
+            "skill_level": "medium"
         }
     },
     {
@@ -16,7 +18,9 @@
             "title": "Dungeons and Dragons",
             "game_type_id": 2, 
             "creator_id": 1,
-            "description": "Be literally whatever you want"
+            "description": "Be literally whatever you want",
+            "players_needed": 3,
+            "skill_level": "easy"
         }
     },
     {
@@ -26,7 +30,9 @@
             "title": "World of Warcraft",
             "game_type_id": 3, 
             "creator_id": 1,
-            "description": "A world of war and crafts"
+            "description": "A world of war and crafts",
+            "players_needed": 1,
+            "skill_level": "easy"
         }
     }
 ]
